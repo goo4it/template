@@ -1,0 +1,11 @@
+{
+	"MySQLIntegrityConstraintViolationException": {
+		"^Duplicate entry '.*' for key '(.*)'$": {
+			"column_i_tid_f": "字段已存在"
+		}
+	},
+	"MySQLSyntaxErrorException": {
+		"^Duplicate column name '(.*)'$": "字段 {{0}} 已存在",
+		"^Duplicate key name '(.*)'$": "索引创建失败，字段名索引已被占用，请修改字段名"
+	}
+}
